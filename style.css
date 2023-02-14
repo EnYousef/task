@@ -33,7 +33,7 @@ form {
 
 [name="task"] {
     width: 50%;
-    height: 6vh;
+    height: 50px;
     border: none;
     border-radius: 10px;
     margin-left: 10px;
@@ -44,7 +44,7 @@ form {
 [type="submit"] {
 
     width: 17%;
-    height: 6vh;
+    height: 50px;
     border: none;
     border-radius: 10px;
     background-color: #3b92dd;
