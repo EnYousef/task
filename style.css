@@ -86,33 +86,6 @@ form {
     border-radius: 5px;
 }
 
-@media (max-width: 767px) {
-    form {
-        width: 100%;
-    }
-
-    [name="task"] {
-        width: 70%;
-    }
-
-    [type="submit"] {
-        width: 30%;
-        font-size: 15px;
-    }
-
-    .tasks {
-        width: 100%;
-    }
-
-    .del {
-        font-size: 14px;
-    }
-
-    .child {
-        width: 100%;
-    }
-}
-
 @media (max-width: 980px) {
     form {
         width: 80%;
@@ -129,6 +102,33 @@ form {
 
     .tasks {
         width: 80%;
+    }
+
+    .del {
+        font-size: 14px;
+    }
+
+    .child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    form {
+        width: 100%;
+    }
+
+    [name="task"] {
+        width: 70%;
+    }
+
+    [type="submit"] {
+        width: 30%;
+        font-size: 15px;
+    }
+
+    .tasks {
+        width: 100%;
     }
 
     .del {
