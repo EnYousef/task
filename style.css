@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Cairo";
+    src: url("../Cairo.ttf");
+}
+
+* {
+    font-family: Cairo;
+    box-sizing: border-box;
+    margin: 0;
+    direction: rtl;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    width: 70%;
+    display: flex;
+    padding: 10px;
+
+    border-radius: 15px;
+}
+
+[name="task"] {
+    width: 50%;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 0 6px;
+}
+
+[type="submit"] {
+
+    width: 17%;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #3b92dd;
+    font-size: 17px;
+}
+
+.tasks {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.child {
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: start;
+    margin-top: 10px;
+}
+
+.del {
+    font-size: 16px;
+    padding: 5px 20px;
+    color: white;
+    height: 40px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+    form {
+        width: 100%;
+    }
+
+    [name="task"] {
+        width: 70%;
+    }
+
+    [type="submit"] {
+        width: 30%;
+        font-size: 15px;
+    }
+
+    .tasks {
+        width: 100%;
+    }
+
+    .del {
+        font-size: 14px;
+    }
+
+    .child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 980px) {
+    form {
+        width: 80%;
+    }
+
+    [name="task"] {
+        width: 70%;
+    }
+
+    [type="submit"] {
+        width: 20%;
+        font-size: 15px;
+    }
+
+    .tasks {
+        width: 80%;
+    }
+
+    .del {
+        font-size: 14px;
+    }
+
+    .child {
+        width: 100%;
+    }
+}
